@@ -34,11 +34,10 @@ const Education = () => {
         </div>
         <div className='w-1/5  relative' >
           <div className='flex justify-center'>
-            <span className='mt-20 w-2 h-[340px] bg-teal-100 absolute'></span>
+            <span className='mt-20 w-2 h-[240px] bg-teal-100 absolute'></span>
             <span className='mt-20 w-4 h-4 rounded-full  bg-teal-500 absolute'></span>
             <span className='mt-48 w-4 h-4 rounded-full  bg-teal-500 absolute'></span>
             <span className='mt-[304px] w-4 h-4 rounded-full  bg-teal-500 absolute'></span>
-            <span className='mt-[416px] w-4 h-4 rounded-full  bg-teal-500 absolute'></span>
           </div>
           
         </div>
@@ -50,16 +49,6 @@ const Education = () => {
               <div className='flex items-center space-x-2 justify-center'>
                 <SlCalender/>
                 <span>2016-18</span>
-              </div>
-            </div>
-        </div>
-        <div className='flex justify-start mt-[110px] md:mt-[139px]'>
-            <div>
-              <h2 className='w-full text-center font-semibold text-xl -ml-3 md:ml-0'>Internship(6m)</h2>
-              <h4 className='text-lg mt-1'>Techno Soluto Technologies</h4>
-              <div className='flex items-center space-x-2 -ml-2 md:ml-0 justify-center'>
-                <SlCalender/>
-                <span className=''>1.9.2021-28.2.22</span>
               </div>
             </div>
         </div>
