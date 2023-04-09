@@ -3,6 +3,8 @@ import Skin from './assests/skincare.png'
 import Rick from './assests/rick.png'
 import Netflix from './assests/netflix.png'
 import Nike from './assests/nike.png'
+import Google from "./assests/Screenshot.png"
+import Mern from "./assests/mern-stack.png"
 
 export const featuredPortfolio = [
   {
@@ -87,8 +89,21 @@ export const featuredPortfolio = [
 
   ];
   
-  export const vanillajs = [
-
+  export const MERNprojects = [
+    {
+      id: 1,
+      title: "Authentication App",
+      img:Mern,
+      demo:"",
+      github:"https://github.com/iamthakurnikhil/CompleteAuthentication"
+    },
+    {
+      id: 2,
+      title: "Google Docs Clone",
+      img:Google,
+      demo:"",
+      github:"https://github.com/iamthakurnikhil/CompleteAuthentication"
+    },
   ];
   
   export const reactNative = [

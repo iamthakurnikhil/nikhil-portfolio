@@ -4,7 +4,7 @@ import {
   featuredPortfolio,
   Reactwebsite,
   reactClones,
-  vanillajs,
+  MERNprojects,
   reactNative,
 } from "../data";
 
@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: "4",
-      title: "Vanilla JS",
+      title: "MERN Projects",
     },
     {
       id: "5",
@@ -47,7 +47,7 @@ const Portfolio = () => {
         setData(reactClones);
         break;
       case "4":
-        setData(vanillajs);
+        setData(MERNprojects);
         break;
       case "5":
         setData(reactNative);
